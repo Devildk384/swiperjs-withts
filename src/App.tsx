@@ -27,6 +27,7 @@ export default function App() {
       wrapperTag="ul"
       // navigation={true}
       // pagination
+      loop={true}
       zoom={true}
       pagination={{
         clickable:true
@@ -88,10 +89,6 @@ export default function App() {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="" style={{width:"100px", height:"100px", color:"red", backgroundColor:"black"}}>
-      eskjkldskldskldslk
-
-      </div>
     </>
   );
 }
