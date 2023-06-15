@@ -3,10 +3,10 @@ import React, { useRef, useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/css";
-// import "swiper/css/zoom";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// import "swiper/css";
+// // import "swiper/css/zoom";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 
 // import "./styles.css";
 
@@ -18,23 +18,23 @@ export default function App() {
   return (
     <>
       <Swiper
+
         // style={{
-        //   "--swiper-navigation-color": "#fff",
-        //   "--swiper-pagination-color": "#fff",
+        //   // "--swiper-navigation-color": "#fff",
+        //   // "--swiper-pagination-color": "#fff",
         // }}
         loop={true}
         zoom={true}
-        navigation={true}
         pagination={{
           clickable: true,
         }}
-        modules={[Zoom, Navigation, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
           <div className="swiper-zoom-container">
             <img src="https://d1820pa95bipcd.cloudfront.net/files/b556cc3f85ac4c1baa4b214736ffc22c/content" />
           </div>
+           index
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-zoom-container">
