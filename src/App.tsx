@@ -1,9 +1,10 @@
 import React, { useRef, useState, useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore from "swiper";
 
 // Import Swiper styles
-// import "swiper/css";
+import "swiper/swiper-bundle.css";
 // // import "swiper/css/zoom";
 // import "swiper/css/navigation";
 // import "swiper/css/pagination";
@@ -11,7 +12,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import "./styles.css";
 
 // import required modules
-import { Zoom, Navigation, Pagination } from "swiper";
 
 export default function App() {
 
